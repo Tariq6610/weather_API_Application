@@ -1,0 +1,62 @@
+.bg-wrap{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.bg{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.navbar{
+    width: 50%;
+    margin: 3rem auto;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.4)
+
+}
+
+.navbar-brand{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+#location{
+    line-height: 60px;
+    font-size: clamp(40px, 4vw + 1rem, 80px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#icon{
+    height: 100px;
+}
+
+#temp{
+    font-size: clamp(50px, 5vw + 1rem, 80px);
+    line-height: 70px;
+}
+
+#feels{
+    line-height: 50px;
+    font-size: 20px;
+}
+
+#cond{
+    line-height: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar{
+        width: 90%;      
+    }
+}
