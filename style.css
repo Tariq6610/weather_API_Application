@@ -11,6 +11,10 @@
     opacity: 0.9;
 }
 
+#img{
+    filter: blur(1px);
+}
+
 .navbar{
     width: 50%;
     margin: 3rem auto;
